@@ -10,12 +10,8 @@ html{
 }
 
 body{
-    /*background-color: rgb(28, 172, 172);*/
     background-image:url("../source/fondo1.jpg");
     background-repeat: no-repeat;
-    background-size: 1920px 1000px;;
-    padding: 0 300px 30px 300px;
-    margin: 30px;
     
 
 
@@ -46,6 +42,7 @@ main{
     text-align: center;
     border: 5px solid rgb(0, 0, 0);
     box-shadow: 20px 20px 20px  rgb(0, 15, 15);
+    height: 631px;
 }
 
 nav ul li{
@@ -89,15 +86,61 @@ footer{
 
 }
 
+img{
+    width: 150px;
+    height: 150px;
+}
 
-.imgFloat{
-    float: left;
+.imgFloat1{
+
     margin: 20px 24px 50px 10px;
+
     
 }
+.imgFloat2{
+
+    margin: 20px 24px 50px 10px;
+
+    
+}
+.imgFloat3{
+
+    margin: 20px 24px 50px 10px;
+
+    
+}
+.imgFloat4{
+
+    margin: 20px 24px 50px 10px;
+}
+*/
+
 
 .imgfondo{
     background-size: contain;
 
 
+}
+
+
+.clear{
+    margin: 10px 10px 10px;
+}
+
+
+.clear2 {
+    display: flex;
+    justify-content: center;
+}
+  
+.p_almbum, .s_almbum, .t_almbum, .c_almbum {
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+  
+.imgFloat1, .imgFloat2, .imgFloat3, .imgFloat4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
